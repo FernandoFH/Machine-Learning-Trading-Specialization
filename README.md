@@ -1,4 +1,4 @@
-# Machine-Learning-Trading-Specialization
+# Machine Learning Trading Specialization
 GOOGLE CLOUD &amp; NEW YORK INSTITUTE OF FINANCE
 
 ### 1 Introduction to Trading, Machine Learning & GCP
