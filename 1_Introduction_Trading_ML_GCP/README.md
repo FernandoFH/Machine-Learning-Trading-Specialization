@@ -1,5 +1,4 @@
-#### WEEK 1: 
-#### Introduction to Trading, Machine Learning and GCP
+#### WEEK 1: Introduction to Trading, Machine Learning and GCP
 
 
 Trading vs Investing
