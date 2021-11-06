@@ -1,6 +1,8 @@
 # Machine Learning Trading Specialization
 ###### GOOGLE CLOUD &amp; NEW YORK INSTITUTE OF FINANCE
 
+[ML Trading](https://www.coursera.org/specializations/machine-learning-trading)
+
 ### 1 Introduction to Trading, Machine Learning & GCP
 * WEEK 1: Introduction to Trading, Machine Learning and GCP
 * WEEK 2: Supervised Learning and Forecasting
