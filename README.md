@@ -1,8 +1,8 @@
- - [Python and Statistics for Financial Analysis](https://www.coursera.org/learn/python-statistics-financial-analysis)
- - [Machine Learning with Python for Finance Professionals](https://learning.edx.org/course/course-v1:ACCA+ML001+2T2021/home)
+### [Python and Statistics for Financial Analysis](https://www.coursera.org/learn/python-statistics-financial-analysis)
+### [Machine Learning with Python for Finance Professionals](https://learning.edx.org/course/course-v1:ACCA+ML001+2T2021/home)
 ________
 
-## Machine Learning Trading Specialization
+### Machine Learning Trading Specialization
 ###### GOOGLE CLOUD &amp; NEW YORK INSTITUTE OF FINANCE
 
 [ML Trading](https://www.coursera.org/specializations/machine-learning-trading)
