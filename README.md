@@ -20,5 +20,5 @@
 _________
 
 [Trading Strategies](https://www.coursera.org/specializations/trading-strategy) in Emerging Markets Specialization 
-
+###### Indian School of Business
 
