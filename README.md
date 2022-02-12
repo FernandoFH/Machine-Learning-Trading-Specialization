@@ -1,4 +1,5 @@
  - [Python and Statistics for Financial Analysis](https://www.coursera.org/learn/python-statistics-financial-analysis)
+ - [Machine Learning with Python for Finance Professionals](https://learning.edx.org/course/course-v1:ACCA+ML001+2T2021/home)
 ________
 
 ## Machine Learning Trading Specialization
