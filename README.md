@@ -1,4 +1,7 @@
-# Machine Learning Trading Specialization
+ - [Python and Statistics for Financial Analysis](https://www.coursera.org/learn/python-statistics-financial-analysis)
+________
+
+### Machine Learning Trading Specialization
 ###### GOOGLE CLOUD &amp; NEW YORK INSTITUTE OF FINANCE
 
 [ML Trading](https://www.coursera.org/specializations/machine-learning-trading)
