@@ -16,9 +16,10 @@
 
 ### 3 Trading Strategies as a Reinforcement Learning (RL) Problem
 
-
-_________
-
+________
 [Trading Strategies](https://www.coursera.org/specializations/trading-strategy) in Emerging Markets Specialization 
 ##### Indian School of Business
+________
+[Financial Engineering](https://www.coursera.org/specializations/financialengineering) and Risk Management Specialization
+##### Columbia University
 
