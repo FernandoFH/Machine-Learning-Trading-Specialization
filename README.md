@@ -15,3 +15,10 @@
 * WEEK 3: Build a Momentum-based Trading System
 
 ### 3 Trading Strategies as a Reinforcement Learning (RL) Problem
+
+
+_________
+
+[Trading Strategies](https://www.coursera.org/specializations/trading-strategy) in Emerging Markets Specialization 
+
+
