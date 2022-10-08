@@ -1,12 +1,11 @@
 
-### 1) [Estrategias de Trading con Python](https://www.youtube.com/playlist?list=PLYlZyIXUXErFnQN9ZJ_UAmV84DiXHFd1Z)
+- [Estrategias de Trading con Python](https://www.youtube.com/playlist?list=PLYlZyIXUXErFnQN9ZJ_UAmV84DiXHFd1Z)
+- [Python and Statistics for Financial Analysis](https://www.coursera.org/learn/python-statistics-financial-analysis)
+- [Trading Strategies](https://www.coursera.org/specializations/trading-strategy) in Emerging Markets Specialization 
+- [Financial Engineering](https://www.coursera.org/specializations/financialengineering) and Risk Management Specialization
 
-### [Python and Statistics for Financial Analysis](https://www.coursera.org/learn/python-statistics-financial-analysis)
-
-### Machine Learning Trading Specialization
+### [Machine Learning Trading Specialization](https://www.coursera.org/specializations/machine-learning-trading)
 ###### GOOGLE CLOUD &amp; NEW YORK INSTITUTE OF FINANCE
-
-[ML Trading](https://www.coursera.org/specializations/machine-learning-trading)
 
 ### 1 Introduction to Trading, Machine Learning & GCP
 * WEEK 1: Introduction to Trading, Machine Learning and GCP
@@ -21,10 +20,5 @@
 
 ### 3 Trading Strategies as a Reinforcement Learning (RL) Problem
 
-________
-[Trading Strategies](https://www.coursera.org/specializations/trading-strategy) in Emerging Markets Specialization 
-##### Indian School of Business
-________
-[Financial Engineering](https://www.coursera.org/specializations/financialengineering) and Risk Management Specialization
-##### Columbia University
+
 
