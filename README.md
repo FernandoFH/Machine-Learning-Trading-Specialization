@@ -1,5 +1,5 @@
 
-1- [Estrategias de Trading con Python](https://www.youtube.com/playlist?list=PLYlZyIXUXErFnQN9ZJ_UAmV84DiXHFd1Z)
+### 1) [Estrategias de Trading con Python](https://www.youtube.com/playlist?list=PLYlZyIXUXErFnQN9ZJ_UAmV84DiXHFd1Z)
 
 ### [Python and Statistics for Financial Analysis](https://www.coursera.org/learn/python-statistics-financial-analysis)
 
