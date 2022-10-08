@@ -2,7 +2,6 @@
 1- [Estrategias de Trading con Python](https://www.youtube.com/playlist?list=PLYlZyIXUXErFnQN9ZJ_UAmV84DiXHFd1Z)
 
 ### [Python and Statistics for Financial Analysis](https://www.coursera.org/learn/python-statistics-financial-analysis)
-### [Machine Learning with Python for Finance Professionals](https://learning.edx.org/course/course-v1:ACCA+ML001+2T2021/home)
 
 ### Machine Learning Trading Specialization
 ###### GOOGLE CLOUD &amp; NEW YORK INSTITUTE OF FINANCE
