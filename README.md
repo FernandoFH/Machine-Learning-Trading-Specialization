@@ -16,6 +16,20 @@
 
 -----
 - [Estrategias de Trading con Python](https://www.youtube.com/playlist?list=PLYlZyIXUXErFnQN9ZJ_UAmV84DiXHFd1Z)
+
+|Clase | Status |
+| ---- | ------|
+| Teoría 📚 | ✅ |
+|Indicadores de análisis técnico ||
+| Binance Spot API🪙||
+|Creando BOT para Binance Spot 🪙||
+|Candlesticks para nuestro Bot Binance Spot 🪙||
+|Refactorizando nuestro robot 🪙||
+|Agregando indicadores a nuestro Bot 🪙||
+|Estrategia de TradingLatino 🪙||
+|Mejorando y graficando el Lazybear 🪙||
+|Graficando Lazybear como en TradingView 🪙||
+
 - [Python and Statistics for Financial Analysis](https://www.coursera.org/learn/python-statistics-financial-analysis)
 - [Trading Strategies](https://www.coursera.org/specializations/trading-strategy) in Emerging Markets Specialization 
 - [Financial Engineering](https://www.coursera.org/specializations/financialengineering) and Risk Management Specialization
