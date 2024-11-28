@@ -5,8 +5,6 @@
 
 ### Teoría
 
----
-
 - Indicadores de análisis técnico
 - Binance Spot API
 - Creando BOT para Binance Spot
@@ -16,6 +14,8 @@
 - Estrategia de TradingLatino
 - Mejorando y graficando el Lazybear
 - Graficando Lazybear como en TradingView
+
+---
 
 ### Python For Finance By NeuralNine
 
