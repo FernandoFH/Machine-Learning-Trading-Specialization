@@ -23,3 +23,5 @@
 - [Trading Strategies](https://www.coursera.org/specializations/trading-strategy) in Emerging Markets Specialization
 - [Financial Engineering](https://www.coursera.org/specializations/financialengineering) and Risk Management Specialization
 - [Machine Learning Reinforcement Finance](https://www.coursera.org/specializations/machine-learning-reinforcement-finance)
+
+- [MIT 18.S096 | Topics in Mathematics with Applications in Finance](./Mathematics_App_in_Finance/README.md)

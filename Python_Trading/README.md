@@ -20,4 +20,4 @@
 ### Python For Finance By NeuralNine
 
 - [Youtube Playlist](https://www.youtube.com/playlist?list=PL7yh-TELLS1HJzPsb6Xjdse2zbyQ-ocDH)
-- [Contenido](./Contenido.md)
+- [Check Contenido](./Contenido.md)
