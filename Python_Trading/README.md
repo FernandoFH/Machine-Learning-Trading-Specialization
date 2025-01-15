@@ -96,3 +96,14 @@
   - Exchange
   - Apalancamiento
   - Gestion inadecuada de la estrategia
+
+- Siguientes Pasos (BUSCAR)
+
+  - Optimizacion Automatizada
+  - Robustez de las Estrategias
+  - Test de montecarlos
+  - Test Permutacion de Parametros
+  - Test Milti-mercado
+  - Test Multi-Timeframe
+  - Automatizacion de la Operativa
+  - Gestion de Portafolio
