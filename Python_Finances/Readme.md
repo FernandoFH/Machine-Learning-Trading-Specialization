@@ -1,4 +1,9 @@
-## Estrategias de Trading con Python
+### Estrategias de Trading con Python
+
+- [Youtube Playlist](https://www.youtube.com/playlist?list=PLYlZyIXUXErFnQN9ZJ_UAmV84DiXHFd1Z)
+- [Notas](./EstrategiasTradingPython.md)
+
+### Contenido
 
 | Clase                                         | Status |
 | --------------------------------------------- | ------ |
@@ -15,7 +20,11 @@
 
 ---
 
-## Python For Finance By NeuralNine
+### Python For Finance By NeuralNine
+
+- [Youtube Playlist](https://www.youtube.com/playlist?list=PL7yh-TELLS1HJzPsb6Xjdse2zbyQ-ocDH)
+
+### Teoría
 
 | Clase                                                    | Status |
 | -------------------------------------------------------- | ------ |
@@ -23,7 +32,9 @@
 
 ---
 
-## Curso Gratis De Trading Algorítmico De Criptomonedas
+### Curso Gratis De Trading Algorítmico De Criptomonedas
+
+- [Youtube Playlist](https://www.youtube.com/watch?v=SiXWX0WsNS8)
 
 ### Componentes Basicos
 
@@ -107,3 +118,17 @@
   - Test Multi-Timeframe
   - Automatizacion de la Operativa
   - Gestion de Portafolio
+
+---
+
+### Python and Statistics for Financial Analysis
+
+- [Coursera](https://www.coursera.org/learn/python-statistics-financial-analysis)
+- [Notas](./PythonStatisticsforFinancial.md)
+
+---
+
+### Python Quant/Algorithmic Trading. Introducing the Course (1/25) - 8Hours, 25 Parts
+
+- [Course](https://www.youtube.com/playlist?list=PLs6THB5KHWo2k0OdWXbu_pB_0n2KzpGC1)
+- [Notas](./PythonQuantAlgorithmicTrading.md)
