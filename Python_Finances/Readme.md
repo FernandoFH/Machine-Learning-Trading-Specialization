@@ -32,7 +32,7 @@
 
 ---
 
-### Curso Gratis De Trading Algorítmico De Criptomonedas
+### Curso Gratis De Trading Algorítmico De Criptomonedas ✅
 
 - [Youtube Playlist](https://www.youtube.com/watch?v=SiXWX0WsNS8)
 
