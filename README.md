@@ -25,3 +25,14 @@
 - [Machine Learning Reinforcement Finance](https://www.coursera.org/specializations/machine-learning-reinforcement-finance)
 
 - [MIT 18.S096 | Topics in Mathematics with Applications in Finance](./Mathematics_App_in_Finance/README.md)
+
+# Transformers Notebooks
+
+<!--This table is automatically generated, do not fill manually!-->
+
+| Chapter             | Colab                                                                                                                                                                                    |
+| :------------------ | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Introduction        | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nlp-with-transformers/notebooks/blob/main/01_introduction.ipynb)   |
+| Text Classification | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nlp-with-transformers/notebooks/blob/main/02_classification.ipynb) |
+
+<!--End of table-->
