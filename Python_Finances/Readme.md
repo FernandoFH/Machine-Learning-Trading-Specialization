@@ -8,7 +8,7 @@
 | Clase                                         | Status |
 | --------------------------------------------- | ------ |
 | Teoría 📚                                     | ✅     |
-| Indicadores de análisis técnico               |        |
+| Indicadores de análisis técnico               | ✅     |
 | Binance Spot API 🪙                           |        |
 | Creando BOT para Binance Spot 🪙              |        |
 | Candlesticks para nuestro Bot Binance Spot 🪙 |        |
@@ -29,6 +29,20 @@
 | Clase                                                    | Status |
 | -------------------------------------------------------- | ------ |
 | Visualizing Stock Data With Candlestick Charts in Python |        |
+
+---
+
+### Python and Statistics for Financial Analysis
+
+- [Coursera](https://www.coursera.org/learn/python-statistics-financial-analysis)
+- [Notas](./PythonStatisticsforFinancial.md)
+
+---
+
+### Python Quant/Algorithmic Trading. Introducing the Course (1/25) - 8Hours, 25 Parts
+
+- [Course](https://www.youtube.com/playlist?list=PLs6THB5KHWo2k0OdWXbu_pB_0n2KzpGC1)
+- [Notas](./PythonQuantAlgorithmicTrading.md)
 
 ---
 
@@ -118,17 +132,3 @@
   - Test Multi-Timeframe
   - Automatizacion de la Operativa
   - Gestion de Portafolio
-
----
-
-### Python and Statistics for Financial Analysis
-
-- [Coursera](https://www.coursera.org/learn/python-statistics-financial-analysis)
-- [Notas](./PythonStatisticsforFinancial.md)
-
----
-
-### Python Quant/Algorithmic Trading. Introducing the Course (1/25) - 8Hours, 25 Parts
-
-- [Course](https://www.youtube.com/playlist?list=PLs6THB5KHWo2k0OdWXbu_pB_0n2KzpGC1)
-- [Notas](./PythonQuantAlgorithmicTrading.md)
