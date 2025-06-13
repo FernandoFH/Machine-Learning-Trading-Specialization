@@ -1,60 +1,46 @@
-# Import necessary libraries
-import talib as ta
-import matplotlib.pyplot as plt
-import yfinance as yf
+import os
+from binance.client import Client
+from dotenv import load_dotenv
 
-plt.style.use('bmh')
+# Cargamos variables de entorno
+load_dotenv()
 
-aapl = yf.download("AAPL", start="2019-01-01", end="2022-01-01", auto_adjust=True)
+API_KEY = os.getenv('BINANCE_API_KEY')
+API_SECRET = os.getenv('BINANCE_API_SECRET')
 
-# Medias móviles simples
-close = aapl['Close'].to_numpy().flatten()
-aapl['SMA_20'] = ta.SMA(close, timeperiod=20)
-aapl['EMA_50'] = ta.EMA(close, timeperiod=50)
+client = Client(API_KEY, API_SECRET)
 
-# Grafica EMA Y SMA
-plt.figure(figsize=(15, 15))
-plt.plot(aapl['Close'], label='Precio de Cierre', color='blue')
-plt.plot(aapl['SMA_20'], label='SMA 20', color='orange')
-plt.plot(aapl['EMA_50'], label='EMA 50', color='green')
-plt.title('AAPL Precio de Cierre con SMA y EMA')
-plt.xlabel('Fecha')
-plt.ylabel('Precio')
-plt.legend()
-plt.grid()
-plt.show()
+# Obtenemos el balance
+account_info = client.get_account()
 
-# Bollinger Bands
-aapl['BB_upper'], aapl['BB_middle'], aapl['BB_lower'] = ta.BBANDS(close, timeperiod=20, nbdevup=2, nbdevdn=2, matype=0)
+# Obtener el valor del Ticker BTCUSDT
+ticker_btc = client.get_symbol_ticker(symbol='BTCUSDT')
+print(f"Precio actual de BTC/USDT: {ticker_btc['price']}")
 
-plt.figure(figsize=(15, 8))
+# Obtenemos los precios actuales (ticker price)
+prices = {p['symbol']: float(p['price']) for p in client.get_all_tickers()}
 
-# Precio de cierre
-plt.plot(aapl.index, aapl['Close'], label='Precio de Cierre', color='blue')
+print("Balances mayores a 1 USD:")
+for balance in account_info['balances']:
+    asset = balance['asset']
+    free = float(balance['free'])
+    locked = float(balance['locked'])
+    total = free + locked
 
-# Bollinger Bands
-plt.plot(aapl.index, aapl['BB_upper'], label='Bollinger Upper', color='red', linestyle='--')
-plt.plot(aapl.index, aapl['BB_middle'], label='Bollinger Middle (SMA 20)', color='orange')
-plt.plot(aapl.index, aapl['BB_lower'], label='Bollinger Lower', color='green', linestyle='--')
+    if total == 0:
+        continue
 
-plt.fill_between(aapl.index, aapl['BB_lower'], aapl['BB_upper'], color='grey', alpha=0.2)
+    # Calculamos el precio en USDT
+    if asset == 'USDT':
+        value_usd = total
+    else:
+        symbol = asset + 'USDT'
+        price = prices.get(symbol)
+        if price:
+            value_usd = total * price
+        else:
+            # Si no hay par directo contra USDT lo saltamos
+            continue
 
-plt.title('Bollinger Bands')
-plt.xlabel('Fecha')
-plt.ylabel('Precio')
-plt.legend()
-plt.grid()
-plt.show()
-
-### RSI
-aapl['RSI'] = ta.RSI(close, timeperiod=14)
-plt.figure(figsize=(15, 5))
-plt.plot(aapl.index, aapl['RSI'], label='RSI', color='purple')
-plt.axhline(70, color='red', linestyle='--', label='Sobrecompra (70)')
-plt.axhline(30, color='green', linestyle='--', label='Sobreventa (30)')
-plt.title('Índice de Fuerza Relativa (RSI) de AAPL')
-plt.xlabel('Fecha')
-plt.ylabel('RSI')
-plt.legend()
-plt.grid()
-plt.show()
+    if value_usd >= 1:
+        print(f"{asset}: Total={total}, USD={value_usd:.2f}")

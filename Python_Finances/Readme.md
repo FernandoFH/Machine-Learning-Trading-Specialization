@@ -9,7 +9,7 @@
 | --------------------------------------------- | ------ |
 | Teoría 📚                                     | ✅     |
 | Indicadores de análisis técnico               | ✅     |
-| Binance Spot API 🪙                           |        |
+| Binance Spot API 🪙                           | ✅     |
 | Creando BOT para Binance Spot 🪙              |        |
 | Candlesticks para nuestro Bot Binance Spot 🪙 |        |
 | Refactorizando nuestro robot 🪙               |        |
