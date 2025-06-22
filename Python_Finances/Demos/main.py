@@ -1,46 +1,65 @@
 import os
-from binance.client import Client
+from binance.spot import Spot
+from pprint import pprint
 from dotenv import load_dotenv
 
 # Cargamos variables de entorno
 load_dotenv()
 
-API_KEY = os.getenv('BINANCE_API_KEY')
-API_SECRET = os.getenv('BINANCE_API_SECRET')
+class RobotBinances:
+    """
+    Bot para binances que permite la compra y venta del mercado SPOT 
+    """
+    __API_KEY = os.getenv('BINANCE_API_KEY')
+    __API_SECRET = os.getenv('BINANCE_API_SECRET')
 
-client = Client(API_KEY, API_SECRET)
+    def __init__(self, pair: str, temporality: str):
+        """
+        Inicializa el bot con el par de criptomonedas.
+        
+        :param pair: Par de criptomonedas a operar (ejemplo: 'BTCUSDT').
+        :param temporality: Temporalidad de las velas (ejemplo: '1m', '5m', '15m', '1h', '4h').
+        """
+        self.pair = pair.upper()
+        self.temporality = temporality
+        self.symbol = self.pair.removesuffix("USDT")  # Extrae el símbolo de la criptomoneda sin 'USDT'
 
-# Obtenemos el balance
-account_info = client.get_account()
+    def binace_client(self):
+        """
+        Inicioa el cliente de Binance para operar en el mercado SPOT.
+        
+        :return: Spot.
+        """
+        return Spot(api_key=self.__API_KEY, api_secret=self.__API_SECRET)
+    
+    def binance_account(self) -> dict:
+        """
+        Obtiene la información de la cuenta de Binance.
+        
+        :return: Información de la cuenta.
+        """
+        return self.binace_client().account()
+    
+    def cryptourrencies(self) -> list[dict]:
+        """
+        Obtiene la lista de criptomonedas con saldo positivo.
+        
+        :return: Lista de criptomonedas.
+        """
+        return [crypto for crypto in self.binance_account().get('balances') if float(crypto.get('free', 0)) > 0 or float(crypto.get('locked', 0)) > 0]
 
-# Obtener el valor del Ticker BTCUSDT
-ticker_btc = client.get_symbol_ticker(symbol='BTCUSDT')
-print(f"Precio actual de BTC/USDT: {ticker_btc['price']}")
+    def symbol_price(self, pair: str = "BTCUSDT") -> float:
+        """
+        Obtiene el precio actual de un par.
+        
+        :param pair: Par de la criptomoneda (ejemplo: 'BTCUSDT').
+        :return: Precio del par.
+        """
+        return float(self.binace_client().ticker_price(pair.upper()).get('price'))
 
-# Obtenemos los precios actuales (ticker price)
-prices = {p['symbol']: float(p['price']) for p in client.get_all_tickers()}
+# Ejemplo de uso del bot
+bot = RobotBinances(pair='BTCUSDT1`', temporality='4h')
+pprint(bot.symbol_price())  
 
-print("Balances mayores a 1 USD:")
-for balance in account_info['balances']:
-    asset = balance['asset']
-    free = float(balance['free'])
-    locked = float(balance['locked'])
-    total = free + locked
-
-    if total == 0:
-        continue
-
-    # Calculamos el precio en USDT
-    if asset == 'USDT':
-        value_usd = total
-    else:
-        symbol = asset + 'USDT'
-        price = prices.get(symbol)
-        if price:
-            value_usd = total * price
-        else:
-            # Si no hay par directo contra USDT lo saltamos
-            continue
-
-    if value_usd >= 1:
-        print(f"{asset}: Total={total}, USD={value_usd:.2f}")
+# print(bot.pair)  # Imprime el par de criptomonedas
+    
