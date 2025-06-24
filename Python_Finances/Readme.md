@@ -1,7 +1,6 @@
 ### Estrategias de Trading con Python
 
 - [Youtube Playlist](https://www.youtube.com/playlist?list=PLYlZyIXUXErFnQN9ZJ_UAmV84DiXHFd1Z)
-- [Notas](./EstrategiasTradingPython.md)
 
 ### Contenido
 
@@ -40,10 +39,6 @@
   - Mark to Market
 
 Riesgo como moneda para la restabilidad.
-
-### 5. Candlesticks para nuestro Bot Binance Spot 🪙
-
-### 6. Refactorizando nuestro robot 🪙
 
 ### 7. Agregando indicadores a nuestro Bot 🪙
 

@@ -3,6 +3,7 @@ from binance.spot import Spot
 from pprint import pprint
 import pandas as pd
 from dotenv import load_dotenv
+from Utils.strategy import Indicators
 
 # Cargamos variables de entorno
 load_dotenv()
@@ -33,8 +34,9 @@ class RobotBinances:
                 return response() if parameters is None else response(**parameters)
             except Exception as e:
                 pprint(f"Error en la solicitud a Binance: {e}, en el endpoint: {endpoint}, con parámetros: {parameters}")
+                break
     
-
+ 
     def binance_account(self) -> dict:
         """
         Obtiene la información de la cuenta de Binance.
@@ -83,8 +85,10 @@ class RobotBinances:
 
     
 # Ejemplo de uso del bot
-bot = RobotBinances('adausdt', '4h')
-pprint(bot.candlesstick())  # Imprime el precio actual del par
+bot = RobotBinances('BTCUSDT', '4h')
+pprint(Indicators(bot.candlesstick()).macd())  # Imprime el EMA de las velas del par
 
+
+# pprint(bot.candlesstick())  # Imprime el precio actual del par
 # print(bot.pair)  # Imprime el par de criptomonedas
     
