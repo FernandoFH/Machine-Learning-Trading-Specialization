@@ -10,9 +10,9 @@
 | Teoría 📚                                     | ✅     |
 | Indicadores de análisis técnico               | ✅     |
 | Binance Spot API 🪙                           | ✅     |
-| Creando BOT para Binance Spot 🪙              |        |
-| Candlesticks para nuestro Bot Binance Spot 🪙 |        |
-| Refactorizando nuestro robot 🪙               |        |
+| Creando BOT para Binance Spot 🪙              | ✅     |
+| Candlesticks para nuestro Bot Binance Spot 🪙 | ✅     |
+| Refactorizando nuestro robot 🪙               | ✅     |
 | Agregando indicadores a nuestro Bot 🪙        |        |
 | Estrategia de TradingLatino 🪙                |        |
 | Mejorando y graficando el Lazybear 🪙         |        |
@@ -40,8 +40,6 @@
   - Mark to Market
 
 Riesgo como moneda para la restabilidad.
-
-### 4. Creando BOT para Binance Spot 🪙
 
 ### 5. Candlesticks para nuestro Bot Binance Spot 🪙
 
