@@ -63,7 +63,7 @@ class RobotBinances:
         symbol = self.pair if pair is None else pair
         return float(self._request('ticker_price', {'symbol': symbol.upper()}).get('price'))
     
-    def candlesstick(self, limit: int = 50) -> pd.DataFrame:
+    def candlesstick(self, limit: int = 200) -> pd.DataFrame:
         """
         Obtiene las velas del par de criptomonedas.
         
@@ -84,9 +84,15 @@ class RobotBinances:
         return candel[['Open time','Close time', 'Open', 'High', 'Low', 'Close', 'Volume']].astype(float)
 
     
-# Ejemplo de uso del bot
-bot = RobotBinances('BTCUSDT', '4h')
-pprint(Indicators(bot.candlesstick()).macd())  # Imprime el EMA de las velas del par
+if __name__ == "__main__":
+    # Ejemplo de uso del bot
+    bot = RobotBinances('BTCUSDT', '4h')
+    # ema10, ema55, adx, squeeze = Indicators(bot.candlesstick()).trading_latino()
+    # pprint((ema10, ema55, adx, squeeze))
+
+    Indicators(bot.candlesstick()).graph_layybear()
+    Indicators(bot.candlesstick()).graph_adx()
+
 
 
 # pprint(bot.candlesstick())  # Imprime el precio actual del par

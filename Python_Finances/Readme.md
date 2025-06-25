@@ -12,12 +12,10 @@
 | Creando BOT para Binance Spot 🪙              | ✅     |
 | Candlesticks para nuestro Bot Binance Spot 🪙 | ✅     |
 | Refactorizando nuestro robot 🪙               | ✅     |
-| Agregando indicadores a nuestro Bot 🪙        |        |
-| Estrategia de TradingLatino 🪙                |        |
+| Agregando indicadores a nuestro Bot 🪙        | ✅     |
+| Estrategia de TradingLatino 🪙                | ✅     |
 | Mejorando y graficando el Lazybear 🪙         |        |
 | Graficando Lazybear como en TradingView 🪙    |        |
-
-### Notas
 
 ---
 
@@ -39,8 +37,6 @@
   - Mark to Market
 
 Riesgo como moneda para la restabilidad.
-
-### 7. Agregando indicadores a nuestro Bot 🪙
 
 ### 8. Estrategia de TradingLatino 🪙
 
