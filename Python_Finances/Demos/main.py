@@ -90,10 +90,7 @@ if __name__ == "__main__":
     # ema10, ema55, adx, squeeze = Indicators(bot.candlesstick()).trading_latino()
     # pprint((ema10, ema55, adx, squeeze))
 
-    Indicators(bot.candlesstick()).graph_layybear()
-    Indicators(bot.candlesstick()).graph_adx()
-
-
+    Indicators(bot.candlesstick()).plot_indicators()
 
 # pprint(bot.candlesstick())  # Imprime el precio actual del par
 # print(bot.pair)  # Imprime el par de criptomonedas

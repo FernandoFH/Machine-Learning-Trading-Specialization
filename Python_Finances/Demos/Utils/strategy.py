@@ -82,6 +82,56 @@ class Indicators:
         plt.grid(linestyle='-.')
         plt.show()
         plt.close(fig)
+    
+    def plot_indicators(self):
+        fig, ax1 = plt.subplots()
+        ax2 = ax1.twinx()
+
+        _adx = self.adx()
+        squeeze = self.macd_lazybear()
+        ax1.plot(_adx, label='ADX', color='white', alpha=0.7)
+        ax1.axhline(y=23, color='white', ls='-.', alpha=0.7)
+        ax2.plot(squeeze['SQZ'], color='white', alpha=0.3, label='Lazybear')
+
+        ax1.set_zorder(ax2.get_zorder() + 1)
+        ax1.patch.set_visible(False)
+
+        ax2.fill_between(squeeze.index, squeeze['SQZ'], where=squeeze['SQZ'] > 0, color='#00CC00', alpha=0.5, label='Squeeze On')
+        ax2.fill_between(squeeze.index, squeeze['SQZ'], where=squeeze['SQZ'] < 0, color='darkred', alpha=0.5, label='Squeeze Off')
+
+        ax2.fill_between(
+            squeeze.index, squeeze['SQZ'],
+            where=(squeeze['SQZ'] > 0) & (squeeze['SQZ'].shift() > squeeze['SQZ']),
+            facecolor='darkgreen'
+            )
+        
+        ax2.fill_between(
+            squeeze.index, squeeze['SQZ'],
+            where=(squeeze['SQZ'] < 0) & (squeeze['SQZ'].shift() > squeeze['SQZ']),
+            facecolor='red'
+            )
+        
+        ax1.set_ylabel('ADX')
+        ax2.set_ylabel('Lazybear')
+
+        ax1.set_facecolor('black')
+        ax2.set_facecolor('black')
+        fig.set_facecolor('black')
+
+        ax1.tick_params(colors='white')
+        ax2.tick_params(colors='white')
+
+        ax1.yaxis.label.set_color('white')
+        ax2.yaxis.label.set_color('white')
+        ax1.xaxis.label.set_color('white')
+        ax2.xaxis.label.set_color('white')
+
+        ax1.legend(loc='upper left', facecolor='white', edgecolor='white', fontsize=8)
+        ax2.legend(loc='upper right', facecolor='white', edgecolor='white', fontsize=8)
+
+        plt.show()
+        plt.title('ADX and Squeeze Indicators')
+        plt.close(fig)
 
     def trading_latino(self):
         return self.ema(10), self.ema(55), self.adx(), self.macd_lazybear()

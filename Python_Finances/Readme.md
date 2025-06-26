@@ -1,4 +1,4 @@
-### Estrategias de Trading con Python
+# Estrategias de Trading con Python ✅
 
 - [Youtube Playlist](https://www.youtube.com/playlist?list=PLYlZyIXUXErFnQN9ZJ_UAmV84DiXHFd1Z)
 
@@ -14,8 +14,8 @@
 | Refactorizando nuestro robot 🪙               | ✅     |
 | Agregando indicadores a nuestro Bot 🪙        | ✅     |
 | Estrategia de TradingLatino 🪙                | ✅     |
-| Mejorando y graficando el Lazybear 🪙         |        |
-| Graficando Lazybear como en TradingView 🪙    |        |
+| Mejorando y graficando el Lazybear 🪙         | ✅     |
+| Graficando Lazybear como en TradingView 🪙    | ✅     |
 
 ---
 
@@ -38,15 +38,13 @@
 
 Riesgo como moneda para la restabilidad.
 
-### 8. Estrategia de TradingLatino 🪙
+Grafica Final:
 
-### 9. Mejorando y graficando el Lazybear 🪙
-
-### 10. Graficando Lazybear como en TradingView 🪙
+![image](../images/TradingViewDemos.png)
 
 ---
 
-### Python For Finance By NeuralNine
+# Python For Finance By NeuralNine
 
 - [Youtube Playlist](https://www.youtube.com/playlist?list=PL7yh-TELLS1HJzPsb6Xjdse2zbyQ-ocDH)
 
@@ -58,21 +56,21 @@ Riesgo como moneda para la restabilidad.
 
 ---
 
-### Python and Statistics for Financial Analysis
+# Python and Statistics for Financial Analysis
 
 - [Coursera](https://www.coursera.org/learn/python-statistics-financial-analysis)
 - [Notas](./PythonStatisticsforFinancial.md)
 
 ---
 
-### Python Quant/Algorithmic Trading. Introducing the Course (1/25) - 8Hours, 25 Parts
+# Python Quant/Algorithmic Trading. Introducing the Course (1/25) - 8Hours, 25 Parts
 
 - [Course](https://www.youtube.com/playlist?list=PLs6THB5KHWo2k0OdWXbu_pB_0n2KzpGC1)
 - [Notas](./PythonQuantAlgorithmicTrading.md)
 
 ---
 
-### Curso Gratis De Trading Algorítmico De Criptomonedas ✅
+# Curso Gratis De Trading Algorítmico De Criptomonedas ✅
 
 - [Youtube Playlist](https://www.youtube.com/watch?v=SiXWX0WsNS8)
 
