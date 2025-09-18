@@ -4,7 +4,7 @@
 
 ### Contenido
 
-| Clase                                         | Status |
+| Clases                                        | Status |
 | --------------------------------------------- | ------ |
 | Teoría 📚                                     | ✅     |
 | Indicadores de análisis técnico               | ✅     |
@@ -50,7 +50,7 @@ Grafica Final:
 
 ### Teoría
 
-| Clase                                                    | Status |
+| Clases                                                   | Status |
 | -------------------------------------------------------- | ------ |
 | Visualizing Stock Data With Candlestick Charts in Python |        |
 
@@ -67,6 +67,18 @@ Grafica Final:
 
 - [Course](https://www.youtube.com/playlist?list=PLs6THB5KHWo2k0OdWXbu_pB_0n2KzpGC1)
 - [Notas](./PythonQuantAlgorithmicTrading.md)
+
+---
+
+## Full Algorithmic Trading Course
+
+- [Youtube Playlist](https://www.youtube.com/playlist?list=PLtqRgJ_TIq8Y6YG8G-ETIFW_36mvxMLad)
+
+### Teoría
+
+| Clases                                          | Status |
+| ----------------------------------------------- | ------ |
+| Algorithmic Trading Using Python - Introduction |        |
 
 ---
 
@@ -146,7 +158,7 @@ Grafica Final:
   - Apalancamiento
   - Gestion inadecuada de la estrategia
 
-- Siguientes Pasos (BUSCAR)
+- Siguientes Pasos (BUSCAR!!!)
 
   - Optimizacion Automatizada
   - Robustez de las Estrategias
