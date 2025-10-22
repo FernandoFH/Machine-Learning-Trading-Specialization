@@ -12,6 +12,20 @@
 - [MIT 18.S096 | Topics in Mathematics with Applications in Finance](./Mathematics_App_in_Finance/README.md)
 - [Python Training](https://github.com/FernandoFH/python-training)
 
+---
+
+# Finances
+
+- [15.401 Finance Theory (MIT OpenCourseWare)](https://www.youtube.com/playlist?list=PLajLxQFcbCFUKogpi6uH2OyPb7rlmq60h)
+- [Valuation](https://www.youtube.com/playlist?list=PLUkh9m2BorqnKWu0g5ZUps_CbQ-JGtbI9)
+
+- [Yale University - Financial Markets](https://www.coursera.org/programs/plan-bronce-2024-24k-msv68/learn/financial-markets-global)
+- [Financial Theory with John Geanakoplos - YaleCourses](https://www.youtube.com/playlist?list=PLEDC55106E0BA18FC)
+
+---
+
+- [Python Training](https://github.com/FernandoFH/python-training)
+
 # Transformers Notebooks
 
 <!--This table is automatically generated, do not fill manually!-->
