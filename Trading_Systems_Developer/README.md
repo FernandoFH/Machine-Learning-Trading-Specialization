@@ -19,3 +19,21 @@ Arquitectura del mundo real de un sistema HFT:
 ✅ Aceleración FPGA para decisiones tick-to-trade
 ✅ Enrutamiento inteligente de órdenes y comprobación de riesgos pre-operación
 ✅ Monitoreo post-operación, métricas y registros de auditoría
+
+(Ultimate Roadmap to Quant Dev Interviews)
+
+- LeetCode Algorithms
+- C++
+  - (A Tour of C++)
+  - (Effective C++)
+  - (Effective Modern C++)
+  - (100 Intervies Questions C++)
+  - Daily C++ Intervies
+  - C++ Concurrency
+- Fluent Python
+- Computer Networking
+- Operating System
+- Computer Architecture
+- System Design
+- Behavioral Questions
+- Math & Stats
