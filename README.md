@@ -1,15 +1,26 @@
-## [Machine Learning Trading Specialization](https://www.coursera.org/specializations/machine-learning-trading)
+### Machine Learning Trading Specialization
 
-###### GOOGLE CLOUD &amp; NEW YORK INSTITUTE OF FINANCE
+Google Cloud &amp; New York Institute of finance
 
-[Notas](./ML_Trading_Specialization/README.md)
+- [Coursera](https://www.coursera.org/specializations/machine-learning-trading)
+- [Notas](./ML_Trading_Specialization/README.md)
+
+---
+
+### Financial Engineering and Risk Management Specialization
+
+- [Coursera](https://www.coursera.org/specializations/financialengineering)
+
+- [Notas](./Financial_Engineering/README.md)
 
 ---
 
 - [Trading Strategies](https://www.coursera.org/specializations/trading-strategy) in Emerging Markets Specialization
-- [Financial Engineering](https://www.coursera.org/specializations/financialengineering) and Risk Management Specialization
+
 - [Machine Learning Reinforcement Finance](https://www.coursera.org/specializations/machine-learning-reinforcement-finance)
+
 - [MIT 18.S096 | Topics in Mathematics with Applications in Finance](./Mathematics_App_in_Finance/README.md)
+
 - [Python Training](https://github.com/FernandoFH/python-training)
 
 ---
