@@ -1,9 +1,11 @@
-### 1 Introduction to Financial Engineering and Risk Management
+## Financial Engineering and Risk Management Specialization
 
-### 2 Term-Structure and Credit Derivatives
+### 1. Introduction to Financial Engineering and Risk Management
 
-### 3 Optimization Methods in Asset Management
+### 2. Term-Structure and Credit Derivatives
 
-### 4 Advanced Topics in Derivative Pricing
+### 3. Optimization Methods in Asset Management
 
-### 5 Computational Methods in Pricing and Model Calibration
+### 4. Advanced Topics in Derivative Pricing
+
+### 5. Computational Methods in Pricing and Model Calibration

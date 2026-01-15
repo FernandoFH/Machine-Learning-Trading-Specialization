@@ -48,8 +48,6 @@ Grafica Final:
 
 - [Youtube Playlist](https://www.youtube.com/playlist?list=PL7yh-TELLS1HJzPsb6Xjdse2zbyQ-ocDH)
 
-### Teoría
-
 | Clases                                                   | Status |
 | -------------------------------------------------------- | ------ |
 | Visualizing Stock Data With Candlestick Charts in Python |        |
