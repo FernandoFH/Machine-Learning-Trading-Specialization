@@ -15,6 +15,14 @@ Google Cloud &amp; New York Institute of finance
 
 ---
 
+### Computational Finance at Leipzig University.
+
+- [Playlist](https://www.youtube.com/playlist?list=PL4i4aZbplv9J5jan6mDbDHtjfm7ghMWfj)
+
+- [Notas](./Computational_Finance/README.md)
+
+---
+
 - [Trading Strategies](https://www.coursera.org/specializations/trading-strategy) in Emerging Markets Specialization
 
 - [Machine Learning Reinforcement Finance](https://www.coursera.org/specializations/machine-learning-reinforcement-finance)
