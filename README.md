@@ -10,7 +10,6 @@ Google Cloud &amp; New York Institute of finance
 ### Financial Engineering and Risk Management Specialization
 
 - [Coursera](https://www.coursera.org/specializations/financialengineering)
-
 - [Notas](./Financial_Engineering/README.md)
 
 ---
@@ -18,7 +17,6 @@ Google Cloud &amp; New York Institute of finance
 ### Computational Finance at Leipzig University.
 
 - [Playlist](https://www.youtube.com/playlist?list=PL4i4aZbplv9J5jan6mDbDHtjfm7ghMWfj)
-
 - [Notas](./Computational_Finance/README.md)
 
 ---
