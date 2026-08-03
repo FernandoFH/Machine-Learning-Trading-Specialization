@@ -1,4 +1,8 @@
+// Clase 1: audiencia, medios y formatos
+
 ### Economía Aplicada
+
+---
 
 [PLAN DE ESTUDIOS](https://www.utdt.edu/ver_contenido.php?id_contenido=6257&id_item_menu=12582)
 

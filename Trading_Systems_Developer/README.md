@@ -1,4 +1,4 @@
-###
+### Trading Systems Developer
 
 - Algorithmos
 - Machines
@@ -25,8 +25,8 @@ Arquitectura del mundo real de un sistema HFT:
 - LeetCode Algorithms
 - C++
   - (A Tour of C++)
-  - (Effective C++) 
-  - (Effective Modern C++) *
+  - (Effective C++)
+  - (Effective Modern C++) \*
   - (100 Intervies Questions C++)
   - Daily C++ Intervies
   - C++ Concurrency
@@ -38,9 +38,7 @@ Arquitectura del mundo real de un sistema HFT:
 - Behavioral Questions
 - Math & Stats
 
----- 
+---
 
-- C++ High Performance 
-- The Linux programming interface 
-
-
+- C++ High Performance
+- The Linux programming interface

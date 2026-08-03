@@ -1,8 +1,8 @@
-### MIT 18.S096 | Topics in Mathematics with Applications in Finance
+### MIT 18.642 | Topics in Mathematics with Applications in Finance | Fall 2024
 
-- [MIT 18.S096 Topics in Mathematics w Applications in Finance](https://www.youtube.com/playlist?list=PLUl4u3cNGP63ctJIEC1UnZ0btsphnnoHR)
+- [Playlist](https://www.youtube.com/playlist?list=PLUl4u3cNGP601Q2jo-J_3raNCMMs6Jves)
 
-- [Courses](https://ocw.mit.edu/courses/18-s096-topics-in-mathematics-with-applications-in-finance-fall-2013/)
+- [Courses](https://ocw.mit.edu/courses/18-642-topics-in-mathematics-with-applications-in-finance-fall-2024/)
 
 ### MIT 15.401 | Finance Theory I
 
